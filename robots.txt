@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://waggintails.github.io/sitemap.xml
+Sitemap: https://waggintailsdoggydaycare.com/sitemap.xml
