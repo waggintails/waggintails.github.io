@@ -421,40 +421,50 @@
   </section>
 
   <!-- ================= SOCIAL FEED ================= -->
-  <section id="feed" class="section section-tint">
+  <section id="feed" class="section section-navy feed-section">
     <div class="wrap">
-      <p class="section-eyebrow">Straight from our feed</p>
-      <h2 class="section-title">See What We're Up To</h2>
-      <p class="section-sub">New photos land here as the crew posts them. Follow along for daily pupdates, or catch the latest right from this page.</p>
+      <div class="feed-head">
+        <p class="section-eyebrow light">Straight from our feed</p>
+        <h2 class="section-title">See What We're Up To</h2>
+        <p class="section-sub light">The crew's latest days, posted to Facebook and pulled in here automatically. Fresh photos most days they're in &mdash; scroll the feed or follow along.</p>
+      </div>
       <div class="feed-grid">
         <div class="feed-fb">
-          <div class="fb-page"
-            data-href="https://www.facebook.com/100043081695923"
-            data-tabs="timeline"
-            data-width="500"
-            data-height="640"
-            data-small-header="false"
-            data-adapt-container-width="true"
-            data-hide-cover="false"
-            data-show-facepile="true">
-            <blockquote cite="https://www.facebook.com/p/Waggin-Tails-Doggy-Day-Care-100043081695923/" class="fb-xfbml-parse-ignore">
-              <a href="https://www.facebook.com/p/Waggin-Tails-Doggy-Day-Care-100043081695923/">Waggin' Tails Doggy Day Care on Facebook</a>
-            </blockquote>
+          <div class="feed-fb-bar">
+            <span class="feed-live"><span class="feed-live-dot" aria-hidden="true"></span>Live from Facebook</span>
+            <span class="feed-fb-updates">Updates automatically</span>
+          </div>
+          <div class="feed-fb-scroll">
+            <div class="fb-page"
+              data-href="https://www.facebook.com/100043081695923"
+              data-tabs="timeline"
+              data-width="500"
+              data-height="720"
+              data-small-header="true"
+              data-adapt-container-width="true"
+              data-hide-cover="false"
+              data-show-facepile="false">
+              <blockquote cite="https://www.facebook.com/p/Waggin-Tails-Doggy-Day-Care-100043081695923/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/p/Waggin-Tails-Doggy-Day-Care-100043081695923/">Waggin' Tails Doggy Day Care on Facebook</a>
+              </blockquote>
+            </div>
           </div>
         </div>
-        <aside class="feed-side">
-          <div class="feed-card feed-card-ig">
-            <span class="feed-card-tag">Instagram</span>
-            <h3>@waggin_tails_doggy_daycare</h3>
-            <p>Fresh photos and reels of the crew, most days they're in.</p>
-            <a class="btn btn-lg" href="https://www.instagram.com/waggin_tails_doggy_daycare/" target="_blank" rel="noopener">Follow on Instagram</a>
-          </div>
-          <div class="feed-card feed-card-fb">
-            <span class="feed-card-tag">Facebook</span>
-            <h3>Waggin' Tails Doggy Day Care</h3>
-            <p>Daily pupdates, comments, and a whole community of local dog families.</p>
-            <a class="btn" href="https://www.facebook.com/p/Waggin-Tails-Doggy-Day-Care-100043081695923/" target="_blank" rel="noopener">Follow on Facebook</a>
-          </div>
+        <aside class="feed-follow">
+          <h3 class="feed-follow-title">Follow along</h3>
+          <p class="feed-follow-sub">Daily pupdates, comments, and a whole community of local dog families cheering each other's pups on.</p>
+          <a class="btn btn-gold btn-lg feed-btn" href="https://www.facebook.com/p/Waggin-Tails-Doggy-Day-Care-100043081695923/" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg>
+            Follow on Facebook
+          </a>
+          <a class="btn feed-btn feed-btn-ghost" href="https://www.instagram.com/waggin_tails_doggy_daycare/" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+            Follow on Instagram
+          </a>
+          <ul class="feed-stats">
+            <li><strong>Daily</strong><span>photo pupdates</span></li>
+            <li><strong>Local</strong><span>Richland &amp; Plainwell families</span></li>
+          </ul>
         </aside>
       </div>
     </div>
