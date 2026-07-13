@@ -6,9 +6,9 @@
   document.documentElement.classList.add("js");
 
   /* Form delivery endpoint (Formspree).
-     LAUNCH GATE: create a free Formspree form pointed at the owner's
-     inbox and paste its endpoint here, e.g. "https://formspree.io/f/abcdwxyz". */
-  var FORM_ENDPOINT = "";
+     Live form "Waggin' Tails Website" -> habib@interactive-guru.com,
+     free plan (50 submissions/mo). Created 2026-07-13. */
+  var FORM_ENDPOINT = "https://formspree.io/f/xnjeqwrw";
 
   /* ----- footer year ----- */
   var year = document.getElementById("year");
