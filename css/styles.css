@@ -396,6 +396,8 @@ input:focus-visible,select:focus-visible,textarea:focus-visible{
 .footer-cols a:hover{text-decoration:underline}
 .footer-fine{border-top:1px solid rgba(255,255,255,.12)}
 .footer-fine p{padding:1.1rem 0;margin:0;font-size:.85rem;color:#8fa0c2}
+.footer-fine a{color:#f4b740;text-decoration:none;font-weight:600}
+.footer-fine a:hover{text-decoration:underline}
 
 /* ---------- mobile call bar ---------- */
 .callbar{
