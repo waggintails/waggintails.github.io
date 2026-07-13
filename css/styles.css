@@ -279,13 +279,13 @@ input:focus-visible,select:focus-visible,textarea:focus-visible{
 }
 .section-seasonal .section-eyebrow{color:var(--coral)}
 
-/* ---------- costume fun (Howl-aween strip) ---------- */
+/* ---------- costume fun (Howl-aween grid) ---------- */
 .costumes{
-  display:flex;gap:1.1rem;overflow-x:auto;padding:1.6rem .2rem .9rem;
-  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem;
+  margin-top:1.6rem;
 }
 .costumes figure{
-  flex:0 0 236px;margin:0;scroll-snap-align:start;
+  margin:0;
   background:var(--white);border:1px solid var(--line);
   border-radius:var(--radius-sm);overflow:hidden;box-shadow:var(--shadow);
 }
@@ -421,6 +421,7 @@ input:focus-visible,select:focus-visible,textarea:focus-visible{
 }
 @media (max-width:940px){
   .toons{grid-template-columns:repeat(2,1fr)}
+  .costumes{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:940px){
   .nav-toggle{display:flex}
@@ -451,7 +452,7 @@ input:focus-visible,select:focus-visible,textarea:focus-visible{
   .cards{grid-template-columns:1fr}
   .gallery{grid-template-columns:1fr}
   .toons{grid-template-columns:1fr}
-  .costumes figure{flex:0 0 78vw}
+  .costumes{grid-template-columns:repeat(2,1fr);gap:.8rem}
   .trust-inner{grid-template-columns:1fr;gap:1.1rem}
   .field-row{grid-template-columns:1fr}
   .footer-inner{grid-template-columns:1fr}
